@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>安徽省缺陷产品召回技术管理中心</title>
+        <link rel="stylesheet" href="./images/base.css">
+        <link rel="stylesheet" href="./images/home.css">
+        <script src="./js/jquery-1.11.0.js"></script>
+        <script src="./js/SuperSlide.js"></script>
+        <script src="./js/time.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="top-box">
+                    <div class="top clearfix">
+                        <div class="top-left">
+                            <img src="./images/map.png" alt="">
+                            <span id="topTime"></span>
+                        </div>
+                        <div class="top-right">
+                            <a href="#">收藏本站</a>
+                            |
+                            <a href="#">微信公众号</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-content">
+                    <div class="header-box clearfix">
+                        <img src="./images/logo.jpg" alt="">
+                        <div class="header-right">
+                            <ul>
+                                <li>安徽省质量技术监督局</li>
+                                <li>安徽省产品质量监督校检研究院</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul class="clearfix">
+                        <li>
+                            <a class="current" href="#">网站首页</a>
+                        </li>
+                        <li>
+                            <a href="#">召回信息</a>
+                        </li>
+                        <li>
+                            <a href="#">动态信息</a>
+                        </li>
+                        <li>
+                            <a href="#">法律法规</a>
+                        </li>
+                        <li>
+                            <a href="#">风险预警</a>
+                        </li>
+                        <li>
+                            <a href="#">安全教育</a>
+                        </li>
+                        <li>
+                            <a href="#">信息填表</a>
+                        </li>
+                        <li>
+                            <a href="#">下载中心</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="container-1 clearfix">
+                    <div class="con-1-l">
+                        <span class="prev"></span>
+                        <span class="next"></span>
+                        <div class="con-t">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/car01.jpg"/>
+                                        <p>福特汽车（中国）有限公司召回部分进口林肯MKZ系列汽车...</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/car02.jpg"/>
+                                        <p>福特汽车（中国）有限公司召回部分进口林肯MKZ系列汽车...2</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/car03.jpg"/>
+                                        <p>福特汽车（中国）有限公司召回部分进口林肯MKZ系列汽车...3</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="con-b">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <script>
+                        $(".con-1-l").slide({
+                            titCell: '.con-b ul',
+                            mainCell: ".con-t ul",
+                            autoPlay: true,
+                            autoPage: true,
+                            delayTime: 1000,
+                            interTime: 4000
+                        });
+                    </script>
+                    <div class="con-1-r">
+                        <div class="title">
+                            <span class="title-1">
+                                查询搜素/
+                            </span>
+                            <span class="title-2">
+                                QUERY SEARCH
+                            </span>
+                        </div>
+                        <form class="search clearfix" action="">
+                            <input type="text" class="search-l">
+                            <button class="search-r">搜素</button>
+                        </form>
+                        <ul class="btn">
+                            <li class="btn-1">
+                                <a href="#" class="a1">
+                                    <span></span>
+                                    <div class="btn-t">
+                                        <em>产品召回</em><br>
+                                        <em class="btn-en">RECALL INFORMATION</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="btn-2">
+                                <a href="#" class="a2">
+                                    <span></span>
+                                    <div class="btn-t">
+                                        <em>信息填报</em><br>
+                                        <em class="btn-en">INFORMATION FILLING</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="btn-3">
+                                <a href="#" class="a3">
+                                    <span></span>
+                                    <div class="btn-t">
+                                        <em>下载中心</em><br>
+                                        <em class="btn-en">DOWANLOAD CENTER</em>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-2 clearfix">
+                    <div class="con-2-l">
+                        <div class="title">
+                            <span class="title-1">
+                                产品召回/
+                            </span>
+                            <span class="title-2">
+                                RECALL INFORMATION
+                            </span>
+                        </div>
+                        <ul class="con-tab">
+                            <li>
+                                <a href="#" class="current">总局召回</a>
+                            </li>
+                            <li>
+                                <a href="#">省局召回</a>
+                            </li>
+                            <li>
+                                <a href="#">国外召回</a>
+                            </li>
+                        </ul>
+                        <div id="tab">
+                            <div class="text-1">
+                                <div class="text-1-t">
+                                    <div class="text-1-l">
+                                        <a href="#">
+                                            <img src="./images/img01.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-1-r">
+                                        <a href="#">
+                                            <span>福特汽车（中国）有限公司召回部分进口林肯</span><br>
+                                            <span class="text-span">MKZ系列汽车</span>
+                                            <img src="./images//new.png" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <p>
+                                                日前，福特汽车（中国）有限公司备案了召回计划，将自2018年5月31日起，召回2017年5月31日至2017年6月15日期间生产的部分进口2017年款林肯MKZ系列汽车...
+                                            </p>
+                                        </a>
+                                        <div class="text-t clearfix">
+                                            <div class="text-t-l">
+                                                2018-03-24
+                                            </div>
+                                            <div class="text-t-r">
+                                                <a href="#">了解更多</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="text-1-b clearfix">
+                                    <div class="text-b-l clearfix">
+                                        <ul class="text-l">
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...<img src="./images/new.png" alt=""></a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...<img src="./images/new.png" alt=""></a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-b-r clearfix">
+                                        <ul class="text-r">
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...<img src="./images/new.png" alt=""></a>
+                                                <span>2018-04-19</span>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...<img src="./images/new.png" alt=""></a>
+
+                                                <span>2018-04-19</span>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-2">
+                                <div class="text-1-t">
+                                    <div class="text-1-l">
+                                        <a href="#">
+                                            <img src="./images/img011.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-1-r">
+                                        <a href="#">
+                                            <span>福特汽车（中国）有限公司召回部分进口林肯</span><br>
+                                            <span class="text-span">MKZ系列汽车</span>
+                                            <img src="./images//new.png" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <p>
+                                                日前，福特汽车（中国）有限公司备案了召回计划，将自2018年5月31日起，召回2017年5月31日至2017年6月15日期间生产的部分进口2017年款林肯MKZ系列汽车...
+                                            </p>
+                                        </a>
+                                        <div class="text-t clearfix">
+                                            <div class="text-t-l">
+                                                2018-03-24
+                                            </div>
+                                            <div class="text-t-r">
+                                                <a href="#">了解更多</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="text-1-b clearfix">
+                                    <div class="text-b-l clearfix">
+                                        <ul class="text-l">
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...<img src="./images/new.png" alt=""></a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...<img src="./images/new.png" alt=""></a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-b-r clearfix">
+                                        <ul class="text-r">
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+
+                                                <span>2018-04-19</span>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-3">
+                                <div class="text-1-t">
+                                    <div class="text-1-l">
+                                        <a href="#">
+                                            <img src="./images/img0111.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-1-r">
+                                        <a href="#">
+                                            <span>福特汽车（中国）有限公司召回部分进口林肯</span><br>
+                                            <span class="text-span">MKZ系列汽车</span>
+                                            <img src="./images//new.png" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <p>
+                                                日前，福特汽车（中国）有限公司备案了召回计划，将自2018年5月31日起，召回2017年5月31日至2017年6月15日期间生产的部分进口2017年款林肯MKZ系列汽车...
+                                            </p>
+                                        </a>
+                                        <div class="text-t clearfix">
+                                            <div class="text-t-l">
+                                                2018-03-24
+                                            </div>
+                                            <div class="text-t-r">
+                                                <a href="#">了解更多</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="text-1-b clearfix">
+                                    <div class="text-b-l clearfix">
+                                        <ul class="text-l">
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-b-r clearfix">
+                                        <ul class="text-r">
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+
+                                                <span>2018-04-19</span>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                                <span>2018-04-19</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            $(function () {
+                                $(".con-tab>li").mouseenter(function () {
+                                    var idx = $(this).index();
+                                    $("#tab>div")
+                                        .eq(idx)
+                                        .show()
+                                        .siblings()
+                                        .hide();
+                                    $(".con-tab>li>a")
+                                        .eq(idx)
+                                        .addClass("current")
+                                        .parent()
+                                        .siblings()
+                                        .children()
+                                        .removeClass();
+                                });
+                            });
+                        </script>
+                    </div>
+                    <div class="con-2-r">
+                        <div class="con-2-title">
+                            <div class="title">
+                                <span class="title-1">
+                                    动态信息/
+                                </span>
+                                <span class="title-2">
+                                    INFORMATION DYNAMICS
+                                </span>
+                            </div>
+                            <div class="title-r">
+                                <a href="#">更多+</a>
+                            </div>
+                        </div>
+                        <div class="con-2-m">
+                            <div class="con-m-l">
+                                <a href="#">
+                                    <img src="./images/img02.jpg" alt="" width="135px" height="122px">
+                                </a>
+                            </div>
+                            <div class="con-m-r">
+                                <a href="#">
+                                    <span>斯巴鲁汽车（中国）有限公司召回部分进口力狮、傲虎...</span>
+                                    <img src="./images/new.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <p class="con-r-p">日前，斯巴鲁汽车（中国）有限公司备案了召回计划，将自...</p>
+                                </a>
+                                <p>2018-04-19</p>
+                            </div>
+                        </div>
+                        <div class="con-2-b">
+                            <ul class="con-b-text clearfix">
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container-3 clearfix">
+                    <div class="con-3-l">
+                        <div class="con-2-title">
+                            <div class="title">
+                                <span class="title-1">
+                                    法律法规/
+                                </span>
+                                <span class="title-2">
+                                    LAWS AND REGULATIONS
+                                </span>
+                            </div>
+                            <div class="title-r">
+                                <a href="#">更多+</a>
+                            </div>
+                        </div>
+                        <div class="con-3-m">
+                            <img src="./images/img03.jpg" alt="">
+                        </div>
+                        <ul class="con-b-text clearfix">
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="con-3-l">
+                        <div class="con-2-title">
+                            <div class="title">
+                                <span class="title-1">
+                                    风险预警/
+                                </span>
+                                <span class="title-2">
+                                    RISK EARLY-WARNING
+                                </span>
+                            </div>
+                            <div class="title-r">
+                                <a href="#">更多+</a>
+                            </div>
+                        </div>
+                        <div class="con-3-m">
+                            <img src="./images/img03.jpg" alt="">
+                        </div>
+                        <ul class="con-b-text clearfix">
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                            <li>
+                                <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                <span>2018-04-19</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="con-3-l">
+                        <div class="con-2-title">
+                            <div class="title">
+                                <span class="title-1">
+                                    安全教育/
+                                </span>
+                                <span class="title-2">
+                                    SAFETY EDUCATION
+                                </span>
+                            </div>
+                            <div class="title-r">
+                                <a href="#">更多+</a>
+                            </div>
+                        </div>
+                        <div class="con-3-m">
+                            <img src="./images/img03.jpg" alt="">
+                        </div>
+                        <div class="con-2-b clearfix">
+                            <ul class="con-b-text clearfix">
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                                <li>
+                                    <a href="#">江铃汽车股份有限公司召回部分江铃...</a>
+                                    <span>2018-04-19</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="ftbg">
+                    <div class="f-nav">
+                        <ul>
+                            <li>
+                                <a href="#">网站首页</a>
+                            </li>
+                            <li>
+                                <a href="#">召回信息</a>
+                            </li>
+                            <li>
+                                <a href="#">动态信息</a>
+                            </li>
+                            <li>
+                                <a href="#">法律法规</a>
+                            </li>
+                            <li>
+                                <a href="#">风险预警</a>
+                            </li>
+                            <li>
+                                <a href="#">安全教育</a>
+                            </li>
+                            <li>
+                                <a href="#">信息填报</a>
+                            </li>
+                            <li>
+                                <a href="#">下载中心</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="f-m">
+                    <span class="f-m-icon"></span>
+                    <div class="f-m-c">
+                        <div class="f-c-t clearfix">
+                            <select class="f-t-sec">
+                                <option value="#">质量技术监督网站</option>
+                                <option value="#">质量技术监督网站</option>
+                                <option value="#">质量技术监督网站</option>
+                            </select>
+                            <select class="f-t-sec">
+                                <option value="#">缺陷召回网站</option>
+                                <option value="#">缺陷召回网站</option>
+                                <option value="#">缺陷召回网站</option>
+                            </select>
+                            <select class="f-t-sec">
+                                <option value="#">国内相关网站</option>
+                                <option value="#">国内相关网站</option>
+                                <option value="#">国内相关网站</option>
+                            </select>
+                            <select class="f-t-sec">
+                                <option value="#">国外相关网站</option>
+                                <option value="#">国外相关网站</option>
+                                <option value="#">国外相关网站</option>
+                            </select>
+                        </div>
+                        <div class="f-c-img"><img src="./images/img04.jpg" alt=""></div>
+                        <div class="f-c-b">
+                            <span>安徽省缺陷产品召回管理技术中心</span>
+                            <p>DEFECTIVE PRODUCT ADMINISTRATION AND TECHNICAL CENTER OF ANHUI PROVINCE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-b">
+                    <a href="#">
+                        <p>安徽省缺陷产品召回管理技术中心 版权所有 皖ICP备1111111111号</p>
+                    </a>
+                </div>
+            </div>
+
+        </body>
+    </html>
