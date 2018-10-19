@@ -46,11 +46,13 @@ a:hover { color: #f20200; }
 
 /*Nav*/
 .nav {height:44px;background:url(bgicon.jpg) center repeat-x;}
-.nav-b ul li{ float: left; width: 150px; height: 44px; line-height:44px; font-size: 16px; color:#fff;background: url(line2.png) right center no-repeat;}
-.nav-b li:last-child{background-image: none;}
-.nav-b .current {background:url(libg.png);}
-.nav-b li:hover{background:url(libg.png);}
-.nav-b a,.nav-b a:hover{color: #fff}
+.nav ul li{ float: left;line-height:44px; font-size: 16px; color:#fff;background: url(line2.png) right center no-repeat;}
+.nav li:last-child{background-image: none;}
+.nav .current {background:url(libg.png);}
+.nav li:hover{background:url(libg.png);}
+.nav a{color:#fff;display: block;width: 150px; height: 44px;}
+.nav a:hover{color: #fff}
+
 /*Banner*/
 .photo {overflow: hidden;height: 328px;margin-top: 6px;margin-left: 2px;position: relative;}
 .photo .item { position:absolute; left:0; bottom:14px; width:580px; height:9px;z-index: 99;}
