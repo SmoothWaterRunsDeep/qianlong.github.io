@@ -26,17 +26,17 @@
 .con-t-z{width: 95px;height: 35px;line-height: 35px;background: url(icon1.jpg);float: left;font-size: 16px;font-weight:bold;color: #fff;position: relative;}
 
 .con-2-news{width: 365px;margin: 0 auto;margin-top: 12px;}
-.con-news-time{width: 48px;height: 50px;float: left;color: #fff}
+.con-news-time{width: 60px;height: 50px;float: left;color: #fff;}
 .news-time-t{height: 30px;background-color: #d01011;font-size: 16px;line-height: 30px;}
 .news-time-b{height: 20px;background-color: #c30001;font-size: 10px;line-height: 20px;}
-.con-2-news a{float: left;height: 50px;background-color: #ebebeb;line-height: 50px;display: block;width: 305px;padding-left: 12px;font-size: 16px;text-align: left;}
+.con-2-news a{float: left;height: 50px;background-color: #ebebeb;line-height: 50px;display: block;width: 290px;padding-left: 12px;font-size: 16px;text-align: left;}
 
 .con-normal{float: left;width: 386px;border: 1px solid #dcdcdc;border-top: none;height: 360px;box-shadow: 1px 2px 1px #dcdcdc;margin-left: 10px;margin-top: 30px;}
 .con-normal .con-t{height: 35px;width: 386px;}
 .con-t-z>span{display: block; width: 10px;height: 8px;position: absolute; left: 50%;margin-left: -5px;background: url(icon3.png);bottom: -6px;}
 
 .con-normal-b{width: 357px;margin: 0 auto;}
-.con-normal-b>ul{padding-top: 20px;}
+.con-normal-b>ul{padding-top: 15px;}
 .con-normal-b>ul>li{text-align: left;border-bottom: 1px dashed #dcdcdc;}
 .con-normal-b>ul>li a{height: 49px;display: block;font-size: 16px;padding-left: 16px;line-height: 50px;background: url(point1.png) left center no-repeat;}
 .con-normal-b>ul>li a:hover{background-image: url(point2.png);}
@@ -50,7 +50,7 @@
 .con-normal-4{float: left;width: 386px;border: 1px solid #dcdcdc;border-top: none;height: 300px;box-shadow: 1px 2px 1px #dcdcdc;margin-left: 10px;margin-top: 30px;}
 .con-normal-4 .con-t{height: 35px;width: 386px;}
 .con-normal-4-b{width: 357px;margin: 0 auto;}
-.con-normal-4-b>ul{padding-top: 20px;}
+.con-normal-4-b>ul{padding-top: 10px;}
 .con-normal-4-b>ul>li{text-align: left;border-bottom: 1px dashed #dcdcdc;}
 .con-normal-4-b>ul>li a{height: 49px;display: block;font-size: 16px;padding-left: 16px;line-height: 50px;background: url(point1.png) left center no-repeat;}
 .con-normal-4-b>ul>li a:hover{background-image: url(point2.png);}
