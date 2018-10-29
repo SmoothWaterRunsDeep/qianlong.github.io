@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*
+Copyright ibw.cn
+Created by Clearfix
+*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; }
+body, button, input, select, textarea { font: 12px/1.5 Microsoft YaHei, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+legend { color: #000; }
+fieldset, img { border: 0; vertical-align: top; }
+section, article, aside, header, footer, nav, dialog, figure { display: block; }
+figure { margin: 0; }
+button, input, select, textarea { font-size: 100%;border:0;background:none;outline:none; }
+table { border-collapse: collapse; border-spacing: 0 }
+.clear { display: block; height: 0; overflow: hidden; clear: both }
+.clearfix:after { content: '\20'; display: block; height: 0; clear: both; }
+.clearfix { *zoom:1;}
+a:link, a:visited { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+a { blr:expression_r(this.onFocus=this.blur());}
+a { outline: none; transition-duration: 0.3s, 0.3s; transition-property: background-color, color; transition-timing-function: ease, ease;}
+table { border-collapse: collapse; border-spacing: 0; }
+.hidden { display: none; }
+.invisible { visibility: hidden; }
+.noBg { background: none !important; }
+.noBd { border: none !important; }
+.noMr{margin-right:0 !important; float:right !important;}
+.i{text-align: justify; text-justify: inter-ideograph;}
+
+/*Body*/
+body { color: #666; }
+a { color: #666; }
+a:hover { color: #0271c3; }
+.wrap { width: 1200px; margin: 0 auto;}
+.wrapper{width:100%; margin: 0 auto; overflow:hidden;}
+.t-b{background:#0271c3;}
+.t-b .wrap{height:35px;line-height:35px;color:#b8cee8;}
+.t-b .wrap a{color:#b8cee8;}
+.t-b .wrap a:hover{color:#fff;}
+.t-b .wel{float:left;}
+.t-b .mes{float:right;}
+.t-c{width:1200px;height:117px;margin:0 auto;}
+.logo{float:left;margin-top:29px;}
+
+.wx{height:35px;line-height:35px;background:url(wx.png) left center no-repeat;float:right;padding-left:42px;margin:41px 40px 0 0;position:relative;font-size:14px;}
+.wx img{position:absolute;top:37px;left:0;display:none;z-index:100;}
+.wx:hover img{display:block;}
+
+.serch{float:right;margin-top:44px;}
+.serch form{width:148px;height:30px;background:url(search.png);}
+.serch .text{width:118px;height:30px;line-height:30px;float:left;padding-left:5px;}
+.serch .ibtn{width:25px;height:30px;float:right;cursor:pointer;}
+
+.nav{border-top:4px solid #0271c3;}
+.nav ul{width:1204px;margin:0 auto;}
+.nav ul li { width: 171px; float: left; display: inline; position:relative; z-index:10; border-right:1px solid #e5e5e5;}
+.nav ul li:last-child{border-right:0;}
+.nav ul li a { display: block; height: 67px; line-height:67px; font-size: 16px; text-align:center; font-weight:bold; }
+.nav ul li a:hover, .nav ul li a.current {color:#0271c3;}
+.nav ul li .subNav{width:171px;position:absolute;top:67px;left:0;background:#fff;z-index:10;display:none;}
+.nav ul li .subNav dt{border-bottom:1px solid #eee;}
+.nav ul li .subNav dt:last-child{border-bottom:0;}
+.nav ul li .subNav dt a{height:auto;line-height:18px;padding:8px 0;font-size:13px;font-weight:normal;}
+.nav ul li .subNav dt a:hover{background:#0271c3;color:#fff;}
+
+/*Banner*/
+.banner {position:relative; left:50%; width:1920px; margin-left:-960px; text-align:center;}
+.banner .hd { position:absolute; left:0; bottom:20px; width:100%; height:12px; z-index:4; }
+.banner .hd ul { width:1000px; height:12px; margin:0 auto; text-align:center;}
+.banner .hd ul li { display:inline-block; *display:inline; zoom:1; width:12px; height:12px; margin:0 4px; border-radius:12px; background:#39c9fd; line-height:999px; overflow:hidden; cursor:pointer; vertical-align:top;}
+.banner .hd ul .on {background:#0271c3;}
+
+.footer{background:#0271c3;padding:30px 0;}
+.ftnav{text-align:center;font-size:14px;color:#fff;font-size:14px;}
+.ftnav a{color:#fff;padding:0 15px;}
+.copyright{color:#fff;text-align:center;padding-top:20px;line-height:22px;}
+.copyright a{color:#fff;}
+
+.iswf{background:#0271c3;overflow:hidden;}
+.iswf .ilogo{text-align:center;margin-top:18%;}
+.iswf a{display:block;width:225px;height:51px;background:url(go.png);margin:74px auto 0;}
