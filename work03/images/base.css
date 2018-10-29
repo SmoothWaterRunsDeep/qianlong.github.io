@@ -1,0 +1,98 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; }
+body, button, input, select, textarea { font: 12px/1.5 Microsoft YaHei, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+legend { color: #000; }
+fieldset, img { border: 0; vertical-align: top; }
+section, article, aside, header, footer, nav, dialog, figure { display: block; }
+figure { margin: 0; }
+button, input, select, textarea { font-size: 100%;border:0;background:none;outline:none; }
+table { border-collapse: collapse; border-spacing: 0 }
+.clear { display: block; height: 0; overflow: hidden; clear: both }
+.clearfix:after { content: '\20'; display: block; height: 0; clear: both; }
+.clearfix { *zoom:1;}
+a:link, a:visited { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+a { blr:expression_r(this.onFocus=this.blur());}
+a { outline: none; transition-duration: 0.3s, 0.3s; transition-property: background-color, color; transition-timing-function: ease, ease;}
+table { border-collapse: collapse; border-spacing: 0; }
+.hidden { display: none; }
+.invisible { visibility: hidden; }
+.noBg { background: none !important; }
+.noBd { border: none !important; }
+.noMr{margin-right:0 !important; float:right !important;}
+.i{text-align: justify; text-justify: inter-ideograph;}
+
+/*Body*/
+body { color: #555; background:#fff;}
+a { color: #555; }
+.wrap { width: 1200px; margin: 0 auto;}
+.wrapper{overflow:hidden;}
+
+/*Header*/
+.header {overflow:hidden;}
+.h-t{background:#2c2c2c;}
+.h-t-c{width:1200px;height:36px;line-height:36px;margin:0 auto;}
+.h-t-l{float:left;color:#999;}
+.h-t-r{float:right;color: #999;}
+.h-t-r a{color:#999;}
+.h-t-r a:hover{color: #097ee9;}
+
+.h-c{background:#fff center no-repeat;}
+.h-c-c{width:1200px;height:126px;margin:0 auto;}
+.h-c-l{float:left;margin-top:35px;padding-right: 250px;}
+.phone{float: left;height:61px;background:url(phone.png) left center no-repeat;padding-left:71px;margin:31px 50px 0 0;}
+.phone p{font-size:20px;line-height:20px;font-weight:bold;padding-top:12px;}
+.phone p span{color:#fa9e21;}
+.phone p i{color:#077de9;font-style:normal;}
+.phone em{display:block;font-size:14px;}
+.wx{float:right;width:64px;text-align:center;margin-top:25px;}
+
+/*Nav*/
+.nav {height:48px;background:url(nav.jpg) center repeat;position:relative;}
+.nav ul{width:1200px;margin:0 auto;}
+.nav ul li{width: 120px;display: inline-block;}
+.nav ul li a { display: block; height: 48px; line-height:48px; font-size: 16px; font-weight:bold; text-align:center; color:#fff;}
+.nav ul li a:hover, .nav ul li a.current {background:url(current.png) top center no-repeat;}
+
+
+.nav .subNav .p1{width:1050px;padding-left:147px;}
+.nav .subNav .p2{width:1197px;}
+.nav .subNav .p3{width:800px;padding-left:397px;}
+.nav .subNav .p4{width:630px;padding-left:567px;}
+.nav .subNav .p5{width:550px;padding-left:647px;}
+
+/*Banner*/
+.banner {position:relative; left:50%; width:1920px; margin-left:-960px; text-align:center;}
+.banner-b{height: 618px;overflow: hidden;}
+.banner .item { position:absolute; left:0; bottom:20px; width:100%; height:12px;}
+.banner .item ul { width:1000px; height:12px; margin:0 auto; text-align:center;}
+.banner .item ul li { display:inline-block; *display:inline; zoom:1; width:12px; height:12px; margin:0 6px; border-radius:12px; background:#fff; line-height:999px; overflow:hidden; cursor:pointer; vertical-align:top;}
+.banner .item ul .on {background:#097ee9;}
+
+/* footer */
+.footer{height: 330px;background: #2c2c2c; font-size: 12px;color: #999999;text-align: center;}
+.footer a{color: #999999;}
+.footer a:hover{color: #fff;}
+.footer-h-l{float: left;margin-top:38px;width: 390px;height: 200px;text-align: left;}
+.footer-l-t h3{font-size: 17px;color: #fff;line-height: 32px;font-weight: normal;}
+.footer-phone{margin-top: 30px;background: url(phone2.png) left center no-repeat;padding-left: 66px;height: 50px;margin-bottom: 25px;}
+.footer-phone .phone-p{color: #fff;font-size: 18px;line-height: 35px;}
+.footer-l-b{line-height: 24px;}
+
+
+.footer-t-r ul{float: left;padding-left: 45px;margin-top: 45px;text-align: left;}
+.footer-t-r .ul-title{padding-bottom: 20px;display: block; font-size: 16px;color: #fff;}
+.footer-t-r li a{line-height: 2;}
+
+.footer-b{
+    margin-top: 35px;
+    padding-bottom: 20px;
+}
+.footer-b a{
+    padding-right: 20px;
+}
+.footer-b span{}
