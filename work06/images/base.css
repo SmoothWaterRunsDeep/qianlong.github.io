@@ -40,10 +40,11 @@ input,textarea{border: none;outline: none;resize: none;/*不允许改变textarea
 /* banner */
 .banner ul:last-child li.on{background-color: rgb(13, 88, 228);} */
 .swiper-container { text-align:center;}
-.banner .swiper-pagination-bullet {width: 6px;height: 6px;margin-left: 6px;border: 1px solid rgb(13, 88, 228);cursor: pointer;border-radius: 3px;}
-.banner .swiper-pagination-bullet-active { background:rgb(13, 88, 228); }
-.banner>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction { bottom:12px !important; }
-.banner>.swiper-pagination-bullets .swiper-pagination-bullet { margin:0 2px; overflow:hidden; }
+.banner .item li {width: 6px;height: 6px;margin-left: 6px;}
+.swiper-pagination-bullet{border: 1px solid rgb(13, 88, 228) !important;border-radius: 6px !important;}
+.swiper-pagination-bullet-active{ background:rgb(13, 88, 228) !important; }
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom:5% !important;}
+.banner img{width: 100%;}
 
 /* nav */
 .nav{width: 100%;margin-top: -1.5%}
