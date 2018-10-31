@@ -77,7 +77,7 @@ $(function(){
                 let num = $(value).find(".num_box").children(".num_value").val();
                 // val()==>获取文本框中的值
                 // $.each(a,b)==>a为需要例遍的数组或对象，b为每个成员/元素执行的回调函数
-                let price = $(value).find(".hd_sum").children().text();
+                let price = $(value).find("#little_sum").children().text();
                 // text()获取元素的文本内容
                 sum += num * price;
             }
@@ -85,11 +85,13 @@ $(function(){
         $(".sum_price").children().text(sum);
     }
     // 重新计算小计
-    function resethd_sum(obj){
+    function resetlittle_sum(obj){
         let shop_item = obj.parents(".shop_bd");
         let num = shop_item.find(".num_box").children(".num_value").val();
-        let price = shop_item.find(".hd_sum").children().text();
-        shop_item.find(".sum_price").children().text(num * price);
+        let price = shop_item.find("#price").children().text();
+        shop_item.find("#little_sum").children().text(num * price);
+        // console.log(num);
+        // console.log(price);
     }
     // 增加数量
     $(".num_up").click(function(){
@@ -102,7 +104,7 @@ $(function(){
         }else{
             input.val(parseInt(input.val())+1);
         }
-        resethd_sum(input);
+        resetlittle_sum(input);
         resetsum_price();
     });
     $(".num_down").click(function(){
@@ -113,12 +115,12 @@ $(function(){
         }else{
             input.val(parseInt(input.val())-1);
         }
-        resethd_sum(input);
+        resetlittle_sum(input);
         resetsum_price();
     });
 
     $(".del").click(function(){
-        $(this).parents(".shopping_hd").remove();
+        $(this).parents(".shop_bd").remove();
         resetsum_price();
     });
 });

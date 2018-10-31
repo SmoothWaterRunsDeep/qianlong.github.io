@@ -36,40 +36,38 @@
             <div class="hd_sum f_left">小计</div>
             <div class="hd_action f_left">操作</div>
         </div>
-        <div class="shop_box">
-            <% if(data.list.length>0){ %>
-            <% data.list.forEach(function(value){ %>
-            <div class="shop_bd wrap">
-                <div class="check_single f_left">
-                    <div class="check_box">
-                        <label for="item<%= value.id%>">
-                            <i></i>
-                        </label>
-                        <input type="checkbox" id="item<%= value.id%>" name="shop_check_all">
-                    </div>
+        <% if(data.list.length>0){ %>
+        <% data.list.forEach(function(value){ %>
+        <div class="shop_bd wrap">
+            <div class="check_single f_left">
+                <div class="check_box">
+                    <label for="item<%= value.id%>">
+                        <i></i>
+                    </label>
+                    <input type="checkbox" id="item<%= value.id%>" name="shop_check_all">
                 </div>
-                <div class="hd_img f_left">
-                    <img src="<%= value.image%>" alt="">
-                </div>
-                <div class="hd_name f_left">
-                    <%= value.title%>
-                </div>
-                <div class="hd_price f_left">
-                    <%= value.price %>元
-                </div>
-                <div class="hd_num f_left">
-                    <div class="num_box clearfix">
-                        <span class="num_down">-</span>
-                        <input class="num_value" type="text" name="" id="" value="<%= value.num %>">
-                        <span class="num_up">+</span>
-                        <input class="num_limit" type="hidden" name="num_limit" value="<%= value.limit %>">
-                    </div>
-                </div>
-                <div class="hd_sum f_left">
-                    <span><%= value.num * value.price %></span>元
-                </div>
-                <div class="hd_action f_left" ><a class="del" href="javascript:;">删除</a></div>
             </div>
+            <div class="hd_img f_left">
+                <img src="<%= value.image%>" alt="">
+            </div>
+            <div class="hd_name f_left">
+                <%= value.title%>
+            </div>
+            <div class="hd_price f_left" id="price">
+                <span><%= value.price %></span>元
+            </div>
+            <div class="hd_num f_left">
+                <div class="num_box clearfix">
+                    <span class="num_down">-</span>
+                    <input class="num_value" type="text" name="" id="" value="<%= value.num %>">
+                    <span class="num_up">+</span>
+                    <input class="num_limit" type="hidden" name="num_limit" value="<%= value.limit %>">
+                </div>
+            </div>
+            <div class="hd_sum f_left" id="little_sum" >
+                <span><%= value.num * value.price %></span>元
+            </div>
+            <div class="hd_action f_left"><a class="del" href="javascript:;">删除</a></div>
         </div>
         <% }) %>
         <% } %>
