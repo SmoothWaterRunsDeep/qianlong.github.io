@@ -1,0 +1,60 @@
+/* 公共样式 */
+*,*::before,*::after{margin: 0;padding: 0;box-sizing: border-box; -webkit-box-sizing: border-box;-webkit-tap-highlight-color: transparent;}
+ul, ol { list-style: none; }
+.clear { display: block; height: 0; overflow: hidden; clear: both }
+.clearfix:after { content: '\20'; display: block; height: 0; clear: both; }
+.clearfix { *zoom:1;}
+a:link, a:visited { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+a{text-decoration: none;}
+a:hover{text-decoration: none;color: #ff6700;}
+body{color: #333333;background-color: #f5f5f5;font-size: 14px;}
+body{font-size: 14px;font-family: "Microsoft YaHei","sans-serif";color: #333;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: #333;}
+
+/* common  css */
+.clearfix::before,
+.clearfix::after{content:"";display: block;visibility: hidden;height: 0;line-height: 0;clear: both;}
+.wrapper{width: 100%;overflow: hidden;}
+.wrap{width: 1200px;margin: 0 auto;overflow: hidden;}
+.f_left{float: left;}
+.f_right{float:right;}
+/* header */
+.header{background-color: #fff;}
+.header h2{padding:25px 0;}
+
+.container{background-color: #fff;margin-top: 20px;}
+.shop_hd{height: 80px;line-height: 80px;}
+.hd_check{width: 110px;}
+.check_box{width: 20px;height: 20px;position: relative;float: left;margin: 30px 10px auto 25px;}
+.check_box .checked{background-color: #ff6700;border: 1px solid #ff6700;}
+.check_box .checked i{color: #fff;}
+.check_box label{position: absolute;right: 0;left: 0;top: 0;bottom: 0;border: 1px solid #ddd;cursor: pointer;}
+.check_box label>i{position: absolute;right: 0;left: 0;top: 0;bottom: 0;margin: auto;height: 16px;width: 16px;font-size: 16px;display:none;font-weight: bold;}
+.shop_hd label i::before{content: "√";position: absolute;top: -31px;}
+.shop_bd label i::before{content: "√";position: absolute;top: -35px;}
+
+.check_box input{position: absolute;z-index: -1;}
+.check_box span{float: left;}
+
+.hd_img{width: 120px;text-align: center;}
+.hd_img>img{vertical-align: top;}
+.hd_name{width: 420px;}
+.hd_price{width: 159px;}
+.hd_num{width: 150px;text-align: center;}
+.hd_sum{width: 120px;text-align: center;}
+.hd_action{width: 120px;}
+
+.shop_bd{height: 88px;background-color: #fff;border-top: 2px solid #ddd;line-height: 90px;}
+.check_single{width: 110px;height: 88px;}
+.num_box{width: 148px;border: 1px solid #ddd;text-align: center;margin-top: 20px;}
+.num_box>input{width: 72px;height: 38px;border: none;float: left;text-align: center;}
+.num_box>span{font-size: 20px;cursor: pointer;line-height: 40px;float: left;width: 37px;}
+
+.footer{height: 65px;line-height: 65px;background-color: #fff;margin-top: 30px;margin-bottom: 100px;}
+.footer>a{font-size: 15px;line-height: 65px;padding-left: 40px;}
+.footer>a:hover{color: #ff6700;}
+.footer .sum_price{color: #ff6700;font-size: 16px; width: 200px;}
+.footer .sum_price>em{font-style: normal;font-size: 30px;}
+.footer input{text-align: center;border: none;width: 200px;height: 65px;background-color:#ff6700;color: #fff;font-size: 18px;cursor: pointer;}
